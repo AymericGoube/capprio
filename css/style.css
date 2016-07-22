@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image: url(../gallery/bgPoster.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+
+header #watch-vid{
+  float: right;
+  margin-right: 10px;
+
+  background-color: rgba(66,66,66 ,0.2);
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  padding: 7px;
+  border-style: solid;
+
+}
+#watch-vid:hover{
+  background-color: rgba(33,33,33 ,0.5);
+}
+
+header #img{
+    width: 25%;
+  margin-top: 200px;
+  margin-left: 450px;
+  }
+
+  header .papabtn{
+    width: 100%;
+    text-align: center;
+  }
+
+header .btnstore{
+  background-color: #ff6a6a;
+  color: white;
+  text-decoration: none;
+  padding: 9px;
+  border-radius: 5px;
+  margin-left: 15px;
+  font-size: 12px;
+  width: 158px;
+  display: inline-block;
+  text-align: left;
+  background-image: url(../gallery/Apple-logo.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 15px 10px;
+  padding-left: 60px;
+}
+header .btnstore.google{
+  background-image: url(../gallery/gplay.png);
+}
+
+  header .btnstore span{
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+  }
+  header div div {
+    width: 650px;
+    margin: 0px auto;
+  }
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+}
+h5{
+  color: #ff6a6a;
+}
+li{
+  list-style-type: none;
+  font-size: 16px;
+}
+.copy{
+float: left;
+
+  margin-left: 150px;
+}
+
+footer{
+  font-family: proxima-nova;
+}
+
+.icon {
+color: white;
+text-align: center;
+font-size: 40px;
+animation-name: slideIn;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+@keyframes slideIn {
+  0%{margin-top: 110px;}
+  50%{margin-top: 130px;}
+  100%{margin-top: 110px;}
+
+}
